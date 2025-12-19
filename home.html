@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Frontend Developer Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="profile">
+      <div class="avatar">NP</div>
+      <h3>Nency Patel</h3>
+      <p>Frontend Developer</p>
+    </div>
+
+    <nav>
+      <a data-target="home" class="active">Home</a>
+      <a data-target="about">About</a>
+      <a data-target="projects">Projects</a>
+      <a data-target="contact">Contact</a>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="content">
+
+    <!-- Hero -->
+    <section id="home" class="section hero">
+      <h1>
+        Hi, I’m <span>Nency</span><br />
+        Frontend Developer
+      </h1>
+      <p>
+        I build clean, scalable and user-friendly web applications with modern frontend tools.
+      </p>
+      <button>View Projects</button>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        Frontend developer focused on Angular, performance optimization,
+        and elegant UI design.
+      </p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+
+      <div class="projects">
+        <div class="card">
+          <h3>NCD Platform</h3>
+          <p>Investment platform with Angular & Material UI.</p>
+          <span>Angular • JavaScript</span>
+        </div>
+
+        <div class="card">
+          <h3>Dashboard UI</h3>
+          <p>Responsive admin dashboard.</p>
+          <span>HTML • CSS • JS</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Email: nency@example.com</p>
+      <p>LinkedIn: linkedin.com/in/nencypatel</p>
+      <p>GitHub: github.com/nencypatel</p>
+    </section>
+
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
